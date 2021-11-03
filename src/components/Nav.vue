@@ -1,5 +1,5 @@
 <template>
-<div class="bg-red-400 text-blue-800">
+<div class="bg-blue-400 text-purple-800">
 <div class="container mx-auto flex items-center justify-between">
    
     <h1 class="tracking-tighter text-6xl font-bold">Online<span class="font-normal">MarketPlace</span>
@@ -8,10 +8,10 @@
    
     <nav>
         <ul class="flex space-x-4">
-            <router-link to="/"><li class="py-8 px-4 hover:cursor-pointer hover:bg-indigo-400 hover:text-indigo-200 text-xl">Home</li></router-link>
-            <router-link to="/about"><li class="py-8 px-4 hover:cursor-pointer hover:bg-indigo-400 hover:text-indigo-200 text-xl">About</li></router-link>
-            <router-link to="/itemList"><li class="py-8 px-4 hover:cursor-pointer hover:bg-indigo-400 hover:text-indigo-200 text-xl">Items</li></router-link>
-            <router-link to="/contact"><li class="py-8 px-4 hover:cursor-pointer hover:bg-indigo-400 hover:text-indigo-200 text-xl">Contact</li></router-link>
+            <router-link to="/"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Home</li></router-link>
+            <router-link to="/about"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">About</li></router-link>
+            <router-link to="/itemList"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Items</li></router-link>
+            <router-link to="/contact"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Contact</li></router-link>
         </ul>
     </nav>
 </div>
