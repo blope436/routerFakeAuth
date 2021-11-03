@@ -1,6 +1,6 @@
 <template>
 <div class="flex items-center text-yellow-800 text-5xl text-center bg-purple-200">
-<img class="w-40" src="src/Assets/aboutTop.png" alt="About Image"/>
+<img class="w-40" src="/src/Assets/aboutTop.png" alt="About Image"/>
 <h1>About</h1>
 </div>
 <div class="text-yellow-300 py-5 px-80 text-2xl">
@@ -22,6 +22,6 @@
 <p class="py-3">
     For more Information feel free to contact us by clicking on the Contact button above!
 </p>
-<img class="py-70 " src="src/Assets/cartAbout.png" />
+<img class="py-70 " src="/src/Assets/cartAbout.png" />
 </div>
 </template>

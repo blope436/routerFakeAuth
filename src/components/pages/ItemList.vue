@@ -1,6 +1,6 @@
 <template>
 <div class="flex items-center text-yellow-800 text-5xl text-center bg-purple-200">
-<img class="w-40" src="src/Assets/itemsListTop.png" alt="Items Image"/>
+<img class="w-40" src="/src/Assets/itemsListTop.png" alt="Items Image"/>
 <h1>Items</h1>
 </div>
 <div class="py-5 text-center text-yellow-300">
