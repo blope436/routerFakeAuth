@@ -12,6 +12,7 @@
             <router-link to="/about"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">About</li></router-link>
             <router-link to="/itemList"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Items</li></router-link>
             <router-link to="/contact"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Contact</li></router-link>
+            <router-link to="/login"><li class="py-8 px-4 hover:cursor-pointer hover:bg-pink-300 hover:text-red-900 text-xl">Login</li></router-link>
         </ul>
     </nav>
 </div>

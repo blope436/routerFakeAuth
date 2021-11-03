@@ -1,5 +1,8 @@
 <template>
-<h1 class="text-yellow-800 text-5xl text-center bg-purple-200">About</h1>
+<div class="flex items-center text-yellow-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="src/Assets/aboutTop.png" alt="About Image"/>
+<h1>About</h1>
+</div>
 <div class="text-yellow-300 py-5 px-80 text-2xl">
 <p class="py-10">
     This website contains items available for sale in our physical stores.
@@ -19,6 +22,6 @@
 <p class="py-3">
     For more Information feel free to contact us by clicking on the Contact button above!
 </p>
-<img class="py-70 " src="https://media.wired.com/photos/5c9040ee4950d24718d6da99/16:9/w_2400,h_1350,c_limit/shoppingcart-1066110386.jpg" />
+<img class="py-70 " src="src/Assets/cartAbout.png" />
 </div>
 </template>

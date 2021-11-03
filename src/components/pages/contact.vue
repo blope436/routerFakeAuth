@@ -1,8 +1,11 @@
 <template>
-<h1 class="text-yellow-800 text-5xl text-center bg-purple-200">Contact Information</h1>
+<div class="flex items-center text-yellow-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="src/Assets/contact2.png" alt="Contacts Image"/>
+<h1>Contact Information</h1>
+</div>
 <div class="text-yellow-300">
 <h3 class="py-5 text-center text-4xl">Feel free to contact us! All information is located below:</h3>
-<img class="mx-auto w-80" src="https://cdn.pixabay.com/photo/2016/12/15/12/26/contact-us-1908763__340.png"/>
+<img class="mx-auto w-80" src="src/Assets/contactTop.png"/>
 <div class="py-8 mx-auto text-center text-4xl">
     <ul>
         <li>

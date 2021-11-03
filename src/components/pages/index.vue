@@ -1,7 +1,11 @@
+
 <template>
-<h1 class="text-yellow-800 text-5xl text-center bg-purple-200">Home</h1>
+<div class="flex items-center text-yellow-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="src/Assets/homeTop.png" alt="Home Image"/>
+<h1>Home</h1>
+</div>
 <div class="container mx-auto text-yellow-300">
-<div ><img class="px-80 py-3" src="https://media.istockphoto.com/photos/on-colourful-speech-bubbles-picture-id180819641?b=1&k=20&m=180819641&s=170667a&w=0&h=CX51cRVofQl95e_cu9Bfy5PLZQ1WdsqmJ-NCFzU96UI="></div>
+<div ><img class="px-80 py-3" src="src/Assets/WelcomeIndex.png" alt="Welcome IMG"></div>
 <div>
     <h3 class="text-4xl">Welcome to the Online MarketPlace. The best place to purchase electronic devices.</h3>
 </div>

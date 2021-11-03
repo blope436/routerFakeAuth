@@ -3,6 +3,7 @@ import Index from './components/pages/index.vue'
 import About from './components/pages/about.vue'
 import Items from './components/pages/ItemList.vue'
 import Contact from './components/pages/contact.vue'
+import Login from './components/pages/login.vue'
 import PageNotFound from './components/pages/404.vue'
 
 const routes = [{
@@ -29,6 +30,11 @@ const routes = [{
     path: "/:pathMatch(.*)*",
     name: "PageNotFound",
     component: PageNotFound,
+},
+{
+    path: "/login",
+    name: "Login",
+    component: Login,
 },
 ];
 
