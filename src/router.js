@@ -4,6 +4,7 @@ import About from './components/pages/about.vue'
 import Items from './components/pages/ItemList.vue'
 import Contact from './components/pages/contact.vue'
 import Login from './components/pages/login.vue'
+import Secret from './components/pages/secret.vue'
 import PageNotFound from './components/pages/404.vue'
 
 const routes = [{
@@ -27,14 +28,19 @@ const routes = [{
     component: Contact,
 },
 {
-    path: "/:pathMatch(.*)*",
-    name: "PageNotFound",
-    component: PageNotFound,
-},
-{
     path: "/login",
     name: "Login",
     component: Login,
+},
+{
+    path: "/secret",
+    name: "Secret",
+    component: Secret,
+},
+{
+    path: "/:pathMatch(.*)*",
+    name: "PageNotFound",
+    component: PageNotFound,
 },
 ];
 
