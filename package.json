@@ -1,5 +1,5 @@
 {
-  "name": "routerFakeAuth",
+  "name": "routerfakeauth",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
